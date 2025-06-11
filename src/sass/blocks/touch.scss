@@ -1,0 +1,74 @@
+.touch {
+    padding-top: 60px;
+
+    &__wrapper {
+        margin-top: 60px;
+        position: relative;
+    }
+
+    &__img {
+        display: none;
+    }
+
+    &__form {
+        // background-color: blue;
+        // min-height: 300px;
+    }
+
+    &__vase {
+        position: absolute;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .touch {
+        &__wrapper {
+            margin-top: 45px;
+        }
+
+        &__form {
+            margin-left: 24px;
+        }
+
+        &__vase {
+            display: inline-block;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .touch {
+        &__wrapper {
+            margin-top: 80px;
+            padding-left: 0;
+        }
+
+        &__img {
+            display: block;
+            width: 550px;
+            height: 341px;
+            object-fit: cover;
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+        }
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .touch {
+        padding-top: 100px;
+
+        &__img {
+            width: 100%;
+            height: 356px;
+        }
+
+        &__form {
+            box-sizing: border-box;
+            width: auto;
+            padding-left: 143px;
+        }
+    }
+}
