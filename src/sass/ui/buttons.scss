@@ -5,7 +5,18 @@
     @include button;
     width: 230px;
     height: 50px;
+}
 
+.btn-send {
+    @include button;
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+
+    &:focus {
+        outline: 1px solid $ceramic;
+        border: 1px solid $ceramic;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -20,6 +31,23 @@
             background: rgba(217, 217, 217, 0.1);
             color: $dark;
             border: none;
+        }
+    }
+
+    .btn-send {
+        &:active {
+            outline: 1px solid $ceramic;
+            border: 1px solid $ceramic;
+        }
+
+        &:hover {
+            color: $ceramic;
+            border: 1px solid $ceramic;
+        }
+
+        &:disabled {
+            color: $ui-disabled;
+            border: 1px solid $ui-disabled;
         }
     }
 }
