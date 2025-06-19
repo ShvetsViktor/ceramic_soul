@@ -34,3 +34,7 @@ Clone the repository and install dependencies:
 
 npm install
 npm run dev
+
+## Link to Figma design
+
+[https://www.figma.com/design/s7lupEHeDAPQDuGyrp3955/Ceramic-soul?node-id=0-1&p=f&t=B9nybxiellr74vgI-0](https://www.figma.com/design/s7lupEHeDAPQDuGyrp3955/Ceramic-soul?node-id=0-1&p=f&t=B9nybxiellr74vgI-0)
